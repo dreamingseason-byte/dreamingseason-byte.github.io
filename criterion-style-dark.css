@@ -94,6 +94,9 @@ nav a:hover {
 }
 
 .about-content h1 {
+    .about-content {
+    max-width: 700px;
+
     font-size: 48px;
     font-weight: 300;
     margin-bottom: 15px;
