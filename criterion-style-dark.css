@@ -397,7 +397,7 @@ footer p {
 
 .before-after-item img {
     width: 100%;
-    height: auto;
+    height: 280px;
     object-fit: cover;
     filter: grayscale(10%);
 }
@@ -408,4 +408,12 @@ footer p {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #888;
+}
+@media (max-width: 600px) {
+    .before-after {
+        flex-direction: column;
+    }
+    .before-after-item img {
+        height: 220px;
+    }
 }
