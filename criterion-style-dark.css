@@ -74,7 +74,7 @@ nav a:hover {
 /* About Section */
 .about-section {
     max-width: 1400px;
-    margin: 60px auto 80px;
+    margin: 100px auto 80px;
     padding: 0 40px;
     display: grid;
     grid-template-columns: 1fr;
@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 .about-content {
-    max-width: 700px;
+    max-width: 900px;
 }
 
 .about-content h1 {
@@ -116,8 +116,9 @@ nav a:hover {
 .about-content p {
     font-size: 18px;
     line-height: 1.8;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: var(--mid-text);
+
 }
 
 .fellowships {
