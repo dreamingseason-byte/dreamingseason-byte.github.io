@@ -385,3 +385,27 @@ footer p {
         gap: 20px;
     }
 }
+.before-after {
+    display: flex;
+    gap: 1rem;
+}
+
+.before-after-item {
+    flex: 1;
+    text-align: center;
+}
+
+.before-after-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(10%);
+}
+
+.before-after-caption {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #888;
+}
